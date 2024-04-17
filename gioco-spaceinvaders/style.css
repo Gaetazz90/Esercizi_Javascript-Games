@@ -1,0 +1,48 @@
+h3{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.result{
+    text-align: center;
+}
+
+.grid{
+    width: 500px;
+    height: 500px;
+    border: solid black;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div{
+    width: 25px;
+    height: 25px;
+}
+
+.shooter{
+    background-color: blue;
+}
+
+.aliens{
+    background-color: green;
+    border-radius: 60%;
+}
+
+.laser{
+    background-color: orange;
+}
+
+.boom{
+    background-color: red;
+} 
+
+#start{
+    height: 50px;
+    width: 100px;
+    margin-left:700px;
+    margin-bottom: 20px;
+}

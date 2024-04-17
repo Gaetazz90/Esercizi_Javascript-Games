@@ -1,0 +1,39 @@
+h3{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.grid{
+    height: 300px;
+    width: 300px;
+    border: solid black;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div{
+    height: 30px;
+    width: 30px;
+}
+
+.result{
+    margin-left: 710px;
+    margin-bottom: 50px;
+}
+
+button{
+    margin-left: 670px;
+    margin-bottom: 20px;
+}
+
+.snake{
+    background-color: rgb(14, 71, 14);
+}
+
+.apple{
+    background-color: rgb(37, 37, 225);
+    border-radius: 50%;
+}
